@@ -1,0 +1,67 @@
+.custom-tooltip {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+.custom-tooltip {
+  font-size: 14px; /* 设置字体大小 */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.value {
+  margin: 0;
+}
+
+/* WordCloud.css */
+.word-cloud {
+  position: relative;
+  width: 90%; /* 设置词云容器的宽度 */
+  height: 300px; /* 设置词云容器的高度 */
+  background-color: #f7f7f7; /* 背景颜色 */
+  border-radius: 10px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+.word {
+  position: absolute;
+  transform: translate(-50%, -50%); /* 让词语的中心对齐指定位置 */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.word:hover {
+  transform: translate(-50%, -50%) scale(1.2);
+  color: #ff6b6b;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
